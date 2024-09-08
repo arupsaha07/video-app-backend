@@ -2,6 +2,7 @@
   "name": "appbackend",
   "version": "1.0.0",
   "description": "a basic backend app to deploy",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
