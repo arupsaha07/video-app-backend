@@ -20,7 +20,14 @@
 6. create "src" folder
 7. add 3 files to the folder "app.js", "constants.js" and "index.js"
 8. create more folders inside /src called "controllers", "db", "middlewares", "models", "routes" and "utils"
+*** .gitkeep file added to the folder so that I can upload the empty folder to git.
 
 ### Package install
 9. Install nodemon and prettier in dev dependency e.g. (npm i -D nodemon)
 10. Create 2 files ".prettierrc" and ".prettierignore"
+
+### Steps to follow
+1. Create MongoDB atlas account and create database
+2. keep the port number and mongodb uri in env variable
+3. keep the database name in constants.js
+4. write code for database connection in index.js page
